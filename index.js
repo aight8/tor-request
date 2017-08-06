@@ -81,8 +81,7 @@ torRequest.patch = verbFunc('patch')
 torRequest.del = verbFunc('del')
 
 
-var net = require('net'); // to communicate with the Tor clients ControlPort
-var os = require('os'); // for os EOL character
+var net = require('react-native-tcp'); // to communicate with the Tor clients ControlPort
 
 // helper object for communicating with the Tor ControlPort.
 // With the ControlPort we can request the Tor Client to renew out session (get new ip)
