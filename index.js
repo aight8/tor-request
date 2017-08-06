@@ -139,7 +139,7 @@ function renewTorSession (done) {
     if (err) {
       done(err);
     } else {
-      var lines = data.split( require('os').EOL ).slice(0, -1);
+      var lines = data.split("\n").slice(0, -1);
 
       var success = lines.every(function (val, ind, arr) {
         // each response from the ControlPort should start with 250 (OK STATUS)
