@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "request": "^2.81.0",
-    "socks": "^1.1.10"
+    "socks": "^1.1.10",
+    "react-native-tcp": "^3.2.2"
   },
   "devDependencies": {
     "mocha": "^2.3.4"
